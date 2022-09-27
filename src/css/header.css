@@ -1,0 +1,11 @@
+.nav-links {
+  position: fixed;
+  display: flex;
+  padding: 15px 20px;
+}
+.nav-links__link {
+  display: block;
+  margin-right: 16px;
+  font-size: 16px;
+  color: #7e858b;
+}

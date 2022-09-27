@@ -1,0 +1,35 @@
+.portfolio {
+  padding: 70px 20px 40px 20px;
+}
+.items__item {
+  display: inline;
+}
+.filters__list {
+  display: flex;
+  margin-bottom: 20px;
+}
+.filters__item {
+  margin-right: 10px;
+}
+.projects__list {
+  display: inline-block;
+  column-count: 3;
+  column-gap: 6px;
+  text-align: center;
+}
+.projects__item {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+
+.projects__item img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+.projects__item-desc {
+  position: absolute;
+  top: 3px;
+  left: 2px;
+}

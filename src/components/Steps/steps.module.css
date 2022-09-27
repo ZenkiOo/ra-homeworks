@@ -1,0 +1,42 @@
+.StepsPage {
+  padding: 70px;
+}
+.steps {
+  max-width: 620px;
+}
+.header {
+  display: flex;
+}
+.header__item {
+  width: 33.33%;
+  padding: 10px;
+}
+.form {
+  display: flex;
+  margin-bottom: 16px;
+}
+.form__item {
+  width: 100%;
+  max-width: 33.33%;
+}
+.steps__item {
+  display: flex;
+  margin-bottom: 16px;
+  position: relative;
+}
+
+.steps__item::after {
+  content: '';
+  position: absolute;
+  width: calc(100% - 127px);
+  height: 1px;
+  bottom: -8px;
+  background-color: rgb(39, 39, 39);
+}
+.step__item {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  max-width: 33.33%;
+  word-break: break-word;
+}
