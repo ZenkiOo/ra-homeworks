@@ -8,6 +8,8 @@ import { StepsPage } from './pages/StepsPage';
 import { StarRating } from "./pages/StarRating";
 import { ListingPage } from "./pages/ListingPage";
 import { FormPage } from "./pages/FormPage";
+import { CardsPage } from './pages/CardsPage';
+import { YaPage } from './pages/YaPage';
 import Nav from './components/data/Nav';
 
 import './App.css';
@@ -29,6 +31,8 @@ function App() {
         <Route path="/stars" element={<StarRating />} />
         <Route path="/listing" element={<ListingPage />} />
         <Route path="/form" element={<FormPage />} />
+        <Route path="/cards" element={<CardsPage />} />
+        <Route path="/yandex" element={<YaPage />} />
       </Routes>
     </>
   );

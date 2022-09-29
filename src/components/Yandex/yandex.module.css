@@ -1,0 +1,147 @@
+.ya_page {
+  padding: 70px;
+}
+.tabs {
+  display: flex;
+}
+.tabs__list {
+  margin-right: 10px;
+}
+.tabs__item {
+  margin-right: 4px;
+  font-size: 18px;
+  color: cornflowerblue;
+  border: none;
+  background-color: transparent;
+}
+.tabs__date {
+  font-size: 14px;
+  color: grey;
+}
+.last_news {
+  display: flex;
+}
+.last_news__list_wrap {
+  margin-right: 30px;
+}
+.last_news_item {
+  display: flex;
+  margin-bottom: 8px;
+}
+.last_news_img {
+  display: block;
+  width: 32px;
+  height: auto;
+  margin-right: 16px;
+}
+.last_news_text {
+  color: black;
+  font-weight: bold;
+  font-size: 14px;
+}
+.currency {
+  display: flex;
+}
+.currency__list {
+  display: flex;
+}
+.currency__item {
+  margin-right: 8px;
+  display: flex;
+}
+.currency__item_name {
+  font-weight: bold;
+  display: block;
+  margin-right: 4px;
+}
+.currency__item_value {
+  font-weight: bold;
+  display: block;
+  margin-right: 4px;
+}
+.main_news_item_img {
+  display: block;
+  width: 130px;
+}
+.main_news_item_title {
+  font-weight: bold;
+}
+.search__tab_list {
+  display: flex;
+}
+.search__tab_item {
+  margin-right: 16px;
+}
+.search__tab_item_link {
+  display: block;
+  color: cornflowerblue;
+  font-size: 17px;
+  font-weight: bold;
+}
+.search_form_input {
+  width: 510px;
+  border: 2px solid #ffd859;
+}
+.search_form_btn {
+  background-color: #ffd859;
+  border-color: #ffd859;
+}
+.search__subtext_text {
+  font-weight: bold;
+  font-size: 14px;
+}
+.search__subtext_link {
+  font-size: 14px;
+  color: gray;
+}
+.footer {
+  display: flex;
+  max-width: 1200px;
+  position: relative;
+}
+.footer__column {
+  width: 33.33%;
+}
+.footer__item {
+  margin-bottom: 24px;
+}
+.footer__item_title {
+  margin-bottom: 8px;
+  font-size: 18px;
+  font-weight: bold;
+  color: cornflowerblue;
+}
+.weather {
+  display: flex;
+}
+.weather__now {
+  margin-right: 16px;
+}
+.weather__now_text {
+  font-size: 22px;
+}
+.weather__all_text {
+  display: block;
+}
+.haunted__item,
+.gem_link,
+.time_table__item,
+.broadcast__item {
+  display: block;
+  color: black;
+}
+.time_table__item {
+  margin-bottom: 4px;
+}
+.time_table__item_time,
+.time_table__item_name,
+.broadcast__item_icon,
+.broadcast__item_name {
+  margin-right: 8px;
+  font-weight: bold;
+}
+
+.time_table__item_channel,
+.broadcast__item_channel {
+  color: grey;
+}

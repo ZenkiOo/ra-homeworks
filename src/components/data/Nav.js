@@ -25,6 +25,12 @@ export default class Nav {
       {
         link: '/steps',
       },
+      {
+        link: '/cards',
+      },
+      {
+        link: '/yandex',
+      },
     ];
   }
 }
