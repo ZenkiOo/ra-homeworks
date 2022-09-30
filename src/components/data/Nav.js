@@ -37,6 +37,12 @@ export default class Nav {
       {
         link: '/notes',
       },
+      {
+        link: '/time',
+      },
+      {
+        link: '/highlight',
+      },
     ];
   }
 }

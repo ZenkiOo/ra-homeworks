@@ -12,6 +12,8 @@ import { CardsPage } from './pages/CardsPage';
 import { YaPage } from './pages/YaPage';
 import WatchesPage from './pages/WatchesPage';
 import NotesPage from './pages/NotesPage';
+import { TimePage } from './pages/TimePage';
+import { Highlight } from './pages/Highlight';
 import Nav from './components/data/Nav';
 
 import './App.css';
@@ -37,6 +39,8 @@ function App() {
         <Route path="/yandex" element={<YaPage />} />
         <Route path="/watches" element={<WatchesPage />} />
         <Route path="/notes" element={<NotesPage />} />
+        <Route path="/time" element={<TimePage />} />
+        <Route path="/highlight" element={<Highlight />} />
       </Routes>
     </>
   );
