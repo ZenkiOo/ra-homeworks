@@ -1,0 +1,30 @@
+.watches_page {
+  padding: 70px;
+}
+.add_watches_form {
+  display: flex;
+  margin-bottom: 16px;
+}
+.add_watches_form__item {
+  position: relative;
+  margin-right: 8px;
+}
+.add_watches_form__label {
+  position: absolute;
+  top: -22px;
+  left: 4px;
+}
+.watches_list__item {
+  display: flex;
+  margin-bottom: 8px;
+}
+.watches__name {
+  color: cornflowerblue;
+  margin-right: 10px;
+}
+.watches__time {
+  margin-right: 10px;
+}
+.watches__delete {
+  border-radius: 50%;
+}

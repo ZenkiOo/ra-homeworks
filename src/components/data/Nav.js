@@ -31,6 +31,12 @@ export default class Nav {
       {
         link: '/yandex',
       },
+      {
+        link: '/watches',
+      },
+      {
+        link: '/notes',
+      },
     ];
   }
 }

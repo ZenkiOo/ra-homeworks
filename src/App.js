@@ -10,6 +10,8 @@ import { ListingPage } from "./pages/ListingPage";
 import { FormPage } from "./pages/FormPage";
 import { CardsPage } from './pages/CardsPage';
 import { YaPage } from './pages/YaPage';
+import WatchesPage from './pages/WatchesPage';
+import NotesPage from './pages/NotesPage';
 import Nav from './components/data/Nav';
 
 import './App.css';
@@ -33,6 +35,8 @@ function App() {
         <Route path="/form" element={<FormPage />} />
         <Route path="/cards" element={<CardsPage />} />
         <Route path="/yandex" element={<YaPage />} />
+        <Route path="/watches" element={<WatchesPage />} />
+        <Route path="/notes" element={<NotesPage />} />
       </Routes>
     </>
   );
