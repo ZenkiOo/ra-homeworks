@@ -1,0 +1,20 @@
+.details_page {
+  padding: 70px;
+}
+.list {
+  margin-bottom: 24px;
+}
+.list__item {
+  display: block;
+}
+.list__item.active {
+  color: red;
+}
+.card {
+  position: relative;
+  max-width: 300px;
+}
+.card__img {
+  display: block;
+  width: 100%;
+}

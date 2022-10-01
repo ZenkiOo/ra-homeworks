@@ -43,6 +43,12 @@ export default class Nav {
       {
         link: '/highlight',
       },
+      {
+        link: '/details',
+      },
+      {
+        link: '/use-json',
+      },
     ];
   }
 }

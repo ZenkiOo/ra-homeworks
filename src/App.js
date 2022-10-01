@@ -14,6 +14,8 @@ import WatchesPage from './pages/WatchesPage';
 import NotesPage from './pages/NotesPage';
 import { TimePage } from './pages/TimePage';
 import { Highlight } from './pages/Highlight';
+import { DetailsPage } from './pages/DetailsPage';
+import { UseJsonPage } from './pages/UseJsonPage';
 import Nav from './components/data/Nav';
 
 import './App.css';
@@ -41,6 +43,8 @@ function App() {
         <Route path="/notes" element={<NotesPage />} />
         <Route path="/time" element={<TimePage />} />
         <Route path="/highlight" element={<Highlight />} />
+        <Route path="/details" element={<DetailsPage />} />
+        <Route path="/use-json" element={<UseJsonPage />} />
       </Routes>
     </>
   );
